@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "concurrently --kill-others \"servemon dev\" \"pnpm run tailwind\"",
+    "tailwind": "pnpx tailwindcss -i ./src/index.css -o ./src/dist/index.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
